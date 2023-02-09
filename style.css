@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* navbar section  */
+.nav-sec{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 60px 20px 60px;
+}
+.navbar{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.vertical{
+    border: 1px solid white;
+    height: 40px;
+}
+.logo{
+    width: 90px;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #ba0cc5;
+}
+.btn-small , .btn-big{
+    color: white;
+    background-color: #ba0cc5;
+    border: 0px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-small{
+    padding: 8px 20px;
+    font-size: 14px;
+}
+.btn-small:hover, .btn-big:hover{
+    background-color: #780980;
+    color: whitesmoke;
+    box-shadow: 4px 4px 8px #eb7ef3;
+
+}
+/* main section */
+.main-sec{
+    background-image: url(./assests/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 91.5vh;
+    text-align: center;
+    padding-top: 120px;
+}
+.heading{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    font-style: normal;
+    line-height: 70px;
+}
+.sub-heading{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    font-style: normal;
+}
+.btn-big{
+    margin-top: 50px;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-style: normal;
+}
